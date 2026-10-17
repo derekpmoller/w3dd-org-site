@@ -74,11 +74,9 @@ nav a:focus {
     color: var(--w3dd-white);
     text-align: center;
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             var(--w3dd-navy) 0%,
-            var(--w3dd-teal) 100%
-        );
+            var(--w3dd-teal) 100%);
     border-bottom: 6px solid var(--w3dd-gold);
 }
 
@@ -282,4 +280,34 @@ footer {
     .section {
         padding: 60px 0;
     }
+}
+
+/* Board and governance */
+.governance-content {
+    max-width: 900px;
+}
+
+.governance-content p {
+    margin-bottom: 18px;
+}
+
+.governance-content h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: var(--w3dd-navy);
+}
+
+.governance-list {
+    padding: 24px 30px 24px 48px;
+    background: var(--w3dd-light-blue);
+    border-left: 6px solid var(--w3dd-gold);
+    border-radius: 0 8px 8px 0;
+}
+
+.governance-list li {
+    margin-bottom: 10px;
+}
+
+.governance-list li:last-child {
+    margin-bottom: 0;
 }
