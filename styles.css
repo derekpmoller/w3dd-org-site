@@ -311,3 +311,88 @@ footer {
 .governance-list li:last-child {
     margin-bottom: 0;
 }
+
+/* Interior page heading */
+.page-hero {
+    padding: 55px 20px;
+    color: var(--w3dd-white);
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        var(--w3dd-navy),
+        var(--w3dd-teal)
+    );
+    border-bottom: 6px solid var(--w3dd-gold);
+}
+
+.page-hero h1 {
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+}
+
+.page-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Privacy policy */
+.policy-content {
+    max-width: 900px;
+}
+
+.policy-content h2 {
+    margin-top: 42px;
+    margin-bottom: 15px;
+}
+
+.policy-content h2:first-of-type {
+    margin-top: 30px;
+}
+
+.policy-content p {
+    margin-bottom: 16px;
+}
+
+.policy-content ul {
+    margin: 0 0 22px 25px;
+    padding-left: 15px;
+}
+
+.policy-content li {
+    margin-bottom: 9px;
+}
+
+.policy-content address {
+    padding: 22px;
+    margin-top: 15px;
+    background: var(--w3dd-light-blue);
+    border-left: 6px solid var(--w3dd-gold);
+    border-radius: 0 8px 8px 0;
+    font-style: normal;
+}
+
+.policy-content a {
+    color: var(--w3dd-teal);
+    font-weight: 700;
+}
+
+.back-link {
+    margin-top: 40px;
+}
+
+/* Footer links */
+.footer-links {
+    margin-top: 16px;
+}
+
+.footer-links a {
+    color: var(--w3dd-gold);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    text-decoration: underline;
+}
