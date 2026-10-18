@@ -396,3 +396,76 @@ footer {
 .footer-links a:focus {
     text-decoration: underline;
 }
+
+/* Get involved page */
+.involved-intro,
+.contribution-guidelines,
+.get-involved-contact {
+    max-width: 900px;
+}
+
+.involved-intro p,
+.contribution-guidelines p,
+.get-involved-contact p {
+    margin-bottom: 18px;
+}
+
+.involvement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.involvement-card {
+    padding: 28px;
+    background: var(--w3dd-white);
+    border: 1px solid var(--w3dd-border);
+    border-top: 5px solid var(--w3dd-blue);
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(18, 56, 60, 0.07);
+}
+
+.involvement-card h3 {
+    margin-bottom: 12px;
+    color: var(--w3dd-navy);
+}
+
+.contribution-guidelines ul {
+    margin: 20px 0 24px 25px;
+    padding-left: 15px;
+}
+
+.contribution-guidelines li {
+    margin-bottom: 10px;
+}
+
+.contribution-notice {
+    max-width: 900px;
+    padding: 28px;
+    background: var(--w3dd-white);
+    border-left: 6px solid var(--w3dd-gold);
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 4px 14px rgba(18, 56, 60, 0.07);
+}
+
+.contribution-notice p {
+    margin-bottom: 16px;
+}
+
+.contribution-notice p:last-child {
+    margin-bottom: 0;
+}
+
+.get-involved-contact .btn {
+    margin-top: 10px;
+}
+
+.contact-note {
+    margin-top: 22px;
+    font-size: 0.95rem;
+}
+
+.footer-links span {
+    margin: 0 8px;
+    color: var(--w3dd-white);
+}
